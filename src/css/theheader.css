@@ -1,0 +1,59 @@
+.about-nav {
+  background-color: black;
+}
+.landingPage-header {
+height: 100px;
+  padding: 0 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.links-container{
+
+  width: 45vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+ }
+ 
+.landingPage-header a {
+  color: white;
+  margin-right: 15px;
+}
+
+
+
+.landingPage-logo {
+  height: 60px;
+}
+
+@media only screen and (max-width: 865px) {
+  .landingPage-sign-up-button {
+    display: none;
+  }
+  .about-nav {
+      display: block;
+      min-height: 100%;
+   padding: 30px 10px;
+  }
+  .links-container{
+ padding-top: 30px;   
+ width: 90vw;
+text-align: center;
+display: block;
+
+}
+
+.landingPage-header {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+}

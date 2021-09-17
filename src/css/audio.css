@@ -1,0 +1,20 @@
+.audio {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+  bottom: 10px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #bd9d00;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.Playbtn {
+  height: 30px;
+  width: 30px;
+}

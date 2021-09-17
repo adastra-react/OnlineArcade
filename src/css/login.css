@@ -1,0 +1,192 @@
+
+
+/* select starting stylings ------------------------------*/
+.select {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  width: 350px;
+}
+input {
+  font-size: 16px;
+
+}
+.input-container{
+  background-color: white;
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding: 30px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: calc(100vh /* - 60px */);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.login-container{
+  -webkit-box-shadow: 0px 17px 54px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 17px 54px -11px rgba(0,0,0,0.75);
+  box-shadow: 0px 17px 54px -11px rgba(0,0,0,0.75);
+  display: flex;
+  border-radius: 10px;
+
+}
+.input {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  width: 350px;
+  margin: 20px 0;
+}
+
+.input-img{
+  background-image: url('../images/1.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 350px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.select-text {
+  position: relative;
+  font-family: inherit;
+  background-color: transparent;
+  width: 350px;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+
+.select-text:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+
+
+.select .select-text {
+  appearance: none;
+  -webkit-appearance: none;
+  color: black;
+}
+
+.select:after {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  /* Styling the down arrow */
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgba(0, 0, 0, 0.12);
+
+  pointer-events: none;
+}
+
+.select-label {
+  color: rgba(0, 0, 0, 0.7);
+  background: white;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  padding: 0 5px;
+  left: 10px;
+  top: 12px;
+  transition: 0.2s ease all;
+}
+
+.select-text:focus ~ .select-label,
+.select-text:valid ~ .select-label {
+  color: blue;
+  top: -8px;
+  transition: 0.2s ease all;
+  font-size: 14px;
+}
+
+.select-text:valid:not(focus) ~ .select-label {
+  color: rgba(0, 0, 0, 0.6);
+}
+.select-text:valid:focus ~ .select-label {
+  color: blue;
+}
+
+
+.button {
+  display: block;
+  padding: 13px;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: rgb(0, 116, 228);
+outline: none;
+border: none;
+  color: white;
+  width: 400px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.input-text {
+  position: relative;
+  font-family: inherit;
+  background-color: transparent;
+  width: 350px;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+
+.input-text:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+
+.input-label {
+  color: rgba(0, 0, 0, 0.7);
+  background: white;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  padding: 0 5px;
+  left: 10px;
+  top: 12px;
+  transition: 0.2s ease all;
+}
+
+
+.input-text:focus ~ .input-label,
+.input-text:valid ~ .input-label {
+  color: blue;
+  top: -8px;
+  transition: 0.2s ease all;
+  font-size: 14px;
+}
+
+.input-text:valid:not(focus) ~ .input-label {
+  color: rgba(0, 0, 0, 0.6);
+}
+.input-text:valid:focus ~ .input-label {
+  color: blue;
+}

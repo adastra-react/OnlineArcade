@@ -1,0 +1,61 @@
+html, body {
+    margin:0px;
+    height:100%;
+    width:100%;
+  }
+  
+  .bingo_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    /* padding: 0 10px; */
+  }
+  
+  .bingo{
+    display: grid;
+    place-items: center;
+    height: 100%;
+  }
+  
+  .game_container{
+    /* height: 427.50px;
+    width: 760px; */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+  
+  }
+  
+  .return_btn{
+    height: 50px;
+    width: 100px;
+  }
+  
+  .return_btn_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  
+  @media only screen and (max-height: 400px){  
+    .game_container{
+      position: absolute;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      top: 0px;
+    }
+  
+    .bingo{
+      display: grid;
+      place-items: center;
+      height: 70vh;
+    }
+    
+  }

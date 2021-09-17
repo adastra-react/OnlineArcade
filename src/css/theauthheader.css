@@ -1,0 +1,92 @@
+.about-nav {
+  background-color: black;
+}
+.auth-landingPage-header {
+height: auto;
+  padding: 20px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.auth-landingPage-header a{
+  color: white;
+  margin:0 10px;
+
+}
+@media only screen and (max-width: 866px) {
+  .auth-landingPage-header {
+    height: 200px;
+
+  }
+}
+@media only screen and (max-width: 630px) {
+  .user_name {
+    padding: 10px 45px;
+    margin: 0 auto !important;
+
+   
+  }
+  
+}
+
+.landingPage-header a {
+  color: white;
+  margin-right: 15px;
+}
+.user_name {
+  padding: 10px 45px;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-right: 10px;
+  background-color: transparent;
+  font-size: 16px;
+  color: white;
+  border: 2px solid #fdd506;
+  text-decoration: none;
+}
+
+.logout_btn{
+  padding: 10px 45px;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-left: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  color: white;
+  border: 2px solid red;
+  text-decoration: none;
+  
+}
+
+
+.landingPage-logo {
+  height: 60px;
+}
+
+@media only screen and (max-width: 865px) {
+  .landingPage-sign-up-button {
+    display: none;
+  }
+  .about-nav {
+      display: block;
+      height: auto;
+   padding: 30px 10px;
+  }
+  .links-container{
+ padding-top: 30px;   
+ width: 90vw;
+text-align: center;
+}
+
+.landingPage-header {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+}

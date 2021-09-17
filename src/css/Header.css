@@ -1,0 +1,63 @@
+.header_cont{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.igc{
+    color: white;
+    padding: 0 40px;
+}
+
+.tokens{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+color: #dc572e;
+font-size: 25px;
+}
+
+.highlight{
+color: #fdd506 ;
+}
+
+@media only screen and (max-width: 717px) {
+    .header_cont{
+        padding: 0 20px;
+        justify-content: center;
+        
+    }
+
+    .login-btn{
+        display: none;
+    }
+  }
+
+.header_name_user{
+    color: white;
+    padding-left: 15px;
+}
+
+.name_logo_cont{
+    display: flex;
+    align-items: center;
+}
+
+.header_image{
+    height: 30px;
+}
+
+.login_btn{
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.header{
+    z-index: 100;
+}

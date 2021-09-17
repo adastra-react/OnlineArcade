@@ -1,0 +1,32 @@
+.sidebar{
+
+ background-color: #191919;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ position: fixed;
+ height: auto;
+
+ width: 110px;
+ bottom: 20%;
+
+}
+
+.sidebar>img{
+    padding: 20px 0;
+
+    transition: .4s all ease;
+    cursor: pointer;
+}
+
+
+.sidebar>img:hover{
+transform: scale(1.2);
+}
+
+@media only screen and (max-width: 865px) {
+    .sidebar{
+        display: none;
+    }
+}

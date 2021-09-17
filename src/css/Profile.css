@@ -1,0 +1,32 @@
+.profile{
+    display: grid;
+    height: 90vh;
+    place-items: center;
+    background-color: whitesmoke;
+}
+
+.profile-name-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: #292929;
+    width: 400px;
+    height:300px;
+}
+
+.profile-title{
+    color: white;
+}
+
+.profile-name{
+    color: white;
+}
+
+.logout-button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: turquoise;
+    border: none;
+}
